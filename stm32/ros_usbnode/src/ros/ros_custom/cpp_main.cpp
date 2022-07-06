@@ -369,7 +369,6 @@ extern "C" void panel_handler()
 {
 	  if (NBT_handler(&panel_nbt))
 	  {			  
-<<<<<<< HEAD
 		PANEL_Tick();
 		if (buttonupdated == 1)
 		{
@@ -381,9 +380,6 @@ extern "C" void panel_handler()
 			free(buttonstate_msg.data);
 			buttonupdated=0;
 		}
-=======
-			PANEL_Tick();		
->>>>>>> 79f0f1996556ecac8f58bf8a46a34640c9b69284
 	  }
 }
 
